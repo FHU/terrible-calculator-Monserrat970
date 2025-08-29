@@ -17,6 +17,9 @@ function calculate() {
     if( operator === "+") {
         result = num1 + num2
     }
+    if(operator === "-"){
+        result = num1 - num2
+    }
     
     // Step 3 - update the result span with the result of the calculation
     resultSpan.innerText = result;
